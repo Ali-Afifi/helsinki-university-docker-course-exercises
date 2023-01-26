@@ -1,0 +1,30 @@
+Script started on 2023-01-27 00:21:16+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="133" LINES="35"]
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hsscr s  ddocker rund   -d nginx:latest[1m [0m[0m  nginx:latest[12D- nginx:latest[13D- nginx:latest[13Dn nginx:latest[13Da nginx:latest[13Dm nginx:latest[13De nginx:latest[13D[1C nginx:latest[13Dc nginx:latest[13Do nginx:latest[13Dn nginx:latest[13Dt nginx:latest[13Da nginx:latest[13Di nginx:latest[13Dn nginx:latest[13De nginx:latest[13Dr nginx:latest[13D1 nginx:latest[13D[?1l>[?2004l
+]2;docker run -d --name container1 nginx:latest]1;docker0dab0f4cf2aa6a38d327e1178177b6817155f83cc59e9985755cbb95b8b8f803
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hdocker run -d --name container1 nginx:latest[P[13C [14D2 nginx:latest[13D[?1l>[?2004l
+]2;docker run -d --name container2 nginx:latest]1;docker91acc212984f1024fbe2e53b6108189ea587e59872abd1e08df600643c211a85
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hdocker run -d --name container2 nginx:latest[14D1[13C[P[13C [14D3 nginx:latest[13D[?1l>[?2004l
+]2;docker run -d --name container3 nginx:latest]1;dockerefe973ebe4ccfb83aa0ea25d3652afc79f0612b96eda5ca5042f7e8fa1a977c2
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hcclear   c  ddocker ps -a[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS     NAMES
+efe973ebe4cc   nginx:latest   "/docker-entrypoint.…"   9 seconds ago    Up 8 seconds    80/tcp    container3
+91acc212984f   nginx:latest   "/docker-entrypoint.…"   14 seconds ago   Up 13 seconds   80/tcp    container2
+0dab0f4cf2aa   nginx:latest   "/docker-entrypoint.…"   18 seconds ago   Up 18 seconds   80/tcp    container1
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker stop efe97 91acc[?1l>[?2004l
+]2;docker stop efe97 91acc]1;dockerefe97
+91acc
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker ps -a[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS                     PORTS     NAMES
+efe973ebe4cc   nginx:latest   "/docker-entrypoint.…"   35 seconds ago   Exited (0) 3 seconds ago             container3
+91acc212984f   nginx:latest   "/docker-entrypoint.…"   40 seconds ago   Exited (0) 3 seconds ago             container2
+0dab0f4cf2aa   nginx:latest   "/docker-entrypoint.…"   44 seconds ago   Up 44 seconds              80/tcp    container1
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1]1;..1/exercise1.1[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.1[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-01-27 00:23:42+02:00 [COMMAND_EXIT_CODE="0"]
