@@ -1,0 +1,249 @@
+Script started on 2023-01-27 00:26:49+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="133" LINES="35"]
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hcclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                     ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker ps s -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[K[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -a[A[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m docker ps -as[?1l>[?2004l
+]2;docker ps -as]1;dockerCONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS                          PORTS     NAMES        SIZE
+efe973ebe4cc   nginx:latest   "/docker-entrypoint.…"   4 minutes ago   Exited (0) 3 minutes ago                  container3   1.09kB (virtual 142MB)
+91acc212984f   nginx:latest   "/docker-entrypoint.…"   4 minutes ago   Exited (0) 3 minutes ago                  container2   1.09kB (virtual 142MB)
+0dab0f4cf2aa   nginx:latest   "/docker-entrypoint.…"   4 minutes ago   Exited (0) About a minute ago             container1   1.09kB (virtual 142MB)
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddockr er imag  ages[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY                    TAG              IMAGE ID       CREATED         SIZE
+nginx                         latest           a99a39d070bf   2 weeks ago     142MB
+signal-viewer-webapp_my-app   latest           7144c9ffb2c4   3 months ago    1.84GB
+python                        latest           f05c8762fe15   3 months ago    921MB
+testing-ts_my-app             latest           6f21e6cfca47   3 months ago    1.08GB
+testing-ts_app                latest           03ee5988194e   3 months ago    1.08GB
+httpd                         alpine3.16       ddb24f700640   3 months ago    55MB
+redis                         latest           2460522297a1   4 months ago    117MB
+kalilinux/kali-last-release   latest           81420183974c   5 months ago    121MB
+node                          lts-alpine3.16   b0cbdedc1b9d   6 months ago    112MB
+test                          latest           d657a1bd9fc1   6 months ago    85.1MB
+busybox                       latest           62aedd01bd85   7 months ago    1.24MB
+ubuntu                        latest           27941809078c   7 months ago    77.8MB
+my-app                        1.1              72e276c43e23   8 months ago    999MB
+mysql                         latest           65b636d5542b   8 months ago    524MB
+mongo                         latest           96c85f49715a   8 months ago    690MB
+alpine                        latest           e66264b98777   8 months ago    5.52MB
+node                          latest           e80747567b58   8 months ago    995MB
+mongo-express                 latest           2d2fb2cabc8f   15 months ago   136MB
+hello-world                   latest           feb5d9fea6a5   16 months ago   13.3kB
+centos                        latest           5d0da3dc9764   16 months ago   231MB
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker container prune[1m [0m[0m [?1l>[?2004l
+]2;docker container prune]1;dockerWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+efe973ebe4ccfb83aa0ea25d3652afc79f0612b96eda5ca5042f7e8fa1a977c2
+91acc212984f1024fbe2e53b6108189ea587e59872abd1e08df600643c211a85
+0dab0f4cf2aa6a38d327e1178177b6817155f83cc59e9985755cbb95b8b8f803
+
+Total reclaimed space: 3.279kB
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker co  image 
+[0mbuild    -- Build an image from a Dockerfile
+history  -- Show the history of an image
+import   -- Import the contents from a tarball to create a filesystem image
+inspect  -- Display detailed information on one or more images
+load     -- Load an image from a tar archive or STDIN
+ls       -- List images
+prune    -- Remove unused images
+pull     -- Pull an image or a repository from a registry
+push     -- Push an image or a repository to a registry
+rm       -- Remove one or more images
+save     -- Save one or more images to a tar archive (streamed to STDOUT by default)
+[Jtag      -- Tag an image into a repository[J[12A[0m[27m[24m[0m[9Cdocker image[K[0m[1Cprune[1m [0m[0m [?1l>[?2004l
+[J]2;docker image prune]1;dockerWARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker image rm[1m [0m[0m $()d)o)c)k)e)r) )i)m)) a)) m)a)g)e)s) )-)q)[?1l>[?2004l
+]2;docker image rm $(docker images -q)]1;dockerUntagged: nginx:latest
+Untagged: nginx@sha256:b8f2383a95879e1ae064940d9a200f67a6c79e710ed82ac42263397367e7cc4e
+Deleted: sha256:a99a39d070bfd1cb60fe65c45dea3a33764dc00a9546bf8dc46cb5a11b1b50e9
+Deleted: sha256:937f740376014d8e951ae4f0ff0b0ca64fd958c176510fc0a86dd1b491226a71
+Deleted: sha256:a73369e624d6b4fbea1e6046a2f3cf3c7a15c6e0e0012659f410380d8dc70594
+Deleted: sha256:bc2dd4cf50f065c3e884872cd30eb888a71f6ab545d8bec196a7662bfbd033a3
+Deleted: sha256:c9372c5c9249380700f7af0441de14f14c361b5561ecc876da46f58a7ad71b7b
+Deleted: sha256:deea3af05bc845b217a415b240422c19933218422b6d60414c2caeff976e5430
+Deleted: sha256:67a4178b7d47beb6a1f697a593bd0c6841c67eb0da00f2badefb05fd30671490
+Untagged: signal-viewer-webapp_my-app:latest
+Deleted: sha256:7144c9ffb2c4e9b73607d0e5a37128ffde088a3213c0ac0b90f2172563574aa8
+Deleted: sha256:5e9a3eb6b32859c7193c71d089ddd708a273b1c0d627de5ff86835836c281447
+Deleted: sha256:df2f2bae45bb7c1c6aa6e1f9556740061bb29d957500240db1543c665b7ef736
+Deleted: sha256:be3bd48522961236eb47bab08d95b05f09e9100cb2032538a05df75cff67aa37
+Deleted: sha256:6f0fc63d7c1ddea26bd252bceb6ac1790ccb3009e5b32b64ab9ba6c2b31d732f
+Deleted: sha256:4f15efb10f65714a455fc405250c67f4eef736af6974d1887290e998bd96ccd2
+Deleted: sha256:b306684d0d1cf003cb86589d6944db54dde98c02edf3869af471449c37360057
+Deleted: sha256:d35b398dcffb91e8ccf766991e5852247488f249782592497302e28c8834b5e7
+Deleted: sha256:cd17378af05665187a177a0286e8435406e16a81155c8b79cbbce17da21ec6eb
+Untagged: python:latest
+Untagged: python@sha256:3e15ea73ac5c1f9408d8dc9eeb8297ece8e727f3004129a829519230c7de720c
+Deleted: sha256:f05c8762fe15f7fc201c1aa6fc621690851584000c64fd5cc0492498b85e1d06
+Deleted: sha256:f8ffc4dc587fc2ff34c9ea77ba2251d4f479b0e04d0347f219baff8f74823266
+Deleted: sha256:041ee9f39cb7ecec54aaf64d7929f3e2b4507ac4283cf605148727d4a7bf5f94
+Deleted: sha256:9a7fb0e1e7bd7e09c397aa77381bf9312f3896e9b85a4115ad0811bd32c082b8
+Deleted: sha256:58b3b4d4d999c8fa97559c5252d0b904613d166fea2b9bcd318c6cba12bc3342
+Deleted: sha256:a2765eeb674c78da94152fdd59d691503ed4c4121ab83129a89cf63255b1659d
+Deleted: sha256:03821bf9263f670d9a4e2658d201ee5d108759403da38272b28127eea46a2134
+Deleted: sha256:db24101d3507d0f5370834318c76e7c62c18fba110a844e1796691488c2067ce
+Deleted: sha256:b00657a91aea31613d9a8764759a8784f35a4c7ab55299bc4a9fa88d989d5c15
+Deleted: sha256:8e079fee21864e07daa88efcf74f23ad5ade697c06417d0c04a45dfe580ab7f3
+Untagged: testing-ts_my-app:latest
+Deleted: sha256:6f21e6cfca47a1ec77b28fc8b7cade423ed63397c7cb361edbb29d4b54cd696c
+Deleted: sha256:a6740cd55795d5a04890c47542694eb7007e488b2c07c8ff3b435832bf6c0c8d
+Deleted: sha256:5e51590be300c5fcfe3ab3aaf347d9bfe2424746b6673881345594c1d21f8d05
+Deleted: sha256:3ddc5a27da5e876e686b158486a2ecc2f32597f2ca74a95401a6b839e156435e
+Deleted: sha256:03b4a0b05749e8e2af86c1e52031d053e0c9dd0f073f3ddf629605987918c649
+Untagged: testing-ts_app:latest
+Deleted: sha256:03ee5988194ea726b925c5a29c5337f574411d5d1ea7c0cb8a732475196499c7
+Deleted: sha256:9cfe3a852b778e7559a72c7da83bd74e2d0a3e04ef3297912318041f4f5c36c2
+Deleted: sha256:027928edab6070dc7bffc07803b94d48d55160323f129139f833f0c666dbac95
+Deleted: sha256:104bdff4ebd8ae8019407680ec23d53377b41b3d0b436f0bb2f5a7c74326f14d
+Deleted: sha256:ea14f9bfd678ad98141b372b6710dc9535822c0ef5a474f60159b1047c11657a
+Deleted: sha256:01d701b5675678a6e0d041ca593f799252bf88b36464fbabcfca26c514e32644
+Deleted: sha256:838b9ec251b1737e3850429380b8b43b3ceb5ec6123bf5a93ec75907f5e091be
+Deleted: sha256:c7a8035093665cf743b7c78ca14de6f24d378099b30c8e8104c1a97eba34a35a
+Untagged: httpd:alpine3.16
+Untagged: httpd@sha256:583433120c4949970c2d0ad29bfd10b74f5ec7e592779b9b5356942827aab41f
+Deleted: sha256:ddb24f700640e0fe592b7210b932af516cadc8d644165382bce0860fa5d0725c
+Deleted: sha256:92320c33daaa3b88b8fa9b797ac16d78025c2aee4b3787e514066aef9dda2183
+Deleted: sha256:9b33c588d664fdc02f2c5cf71f5229a722c71096f0f5a44e1a905f0e3cfe8430
+Deleted: sha256:5bc1ce90c142da32f32581d568dc5a60d3838d04b41b7fd61f160c33c0a5c9f8
+Deleted: sha256:3ccb5cc3b0fc16358654b82721c5a37c2dd204a5ce446a3eada9bf91e9118922
+Deleted: sha256:52d80d2f5768849039072ae36f10720c16780b1ee78153fa0e0591687eed5d5d
+Deleted: sha256:994393dc58e7931862558d06e46aa2bb17487044f670f310dffe1d24e4d1eec7
+Untagged: redis:latest
+Untagged: redis@sha256:091a7b5de688f283b30a4942280b64cf822bbdab0abfb2d2ce6db989f2d3c3f4
+Deleted: sha256:2460522297a148c1bcb477b126451ed44cca05c916694367313be1a91c69f793
+Deleted: sha256:25e8e8b47b2da523c59d1f45d1dd37917ce24608c8b35bfb829e4ac52cb95f31
+Deleted: sha256:726dfc0a8289134813ca803716b2af4139fd2c90b5971805db8aac240a5fd03b
+Deleted: sha256:0582557de47eaa812eae264d036baf53732179106e1dcd5f9ee408323614830b
+Deleted: sha256:fd1bacf7341cbe19b78fe127dcdb6d11099d4a48d363efc93b2ce09f91476acb
+Deleted: sha256:c37ef76cc0f0930f01a7ce69dbb160226e783fff1bc4b16ea2edc1f1c2e5ab5a
+Deleted: sha256:b45078e74ec97c5e600f6d5de8ce6254094fb3cb4dc5e1cc8335fb31664af66e
+Untagged: kalilinux/kali-last-release:latest
+Untagged: kalilinux/kali-last-release@sha256:4552b9d3f0c6c6dbba1d0e72d5506669cf49e5e72db51dbb6a42be3d627f5e62
+Deleted: sha256:81420183974c7bb6653d6bcbc2c6c322a52ce0823256e4d52d8fca72e6bcc4a7
+Deleted: sha256:edaa1124eee359f90a27d75fa90bf1511fa6bf0677e1088176f05d7118461d40
+Untagged: node:lts-alpine3.16
+Untagged: node@sha256:1908564153449b1c46b329e6ce2307e226bc566294f822f11c5a8bcef4eeaad7
+Deleted: sha256:b0cbdedc1b9dc2bb5c7e026b134a51116d1c6c33a75ed304c876d34e07bc61ee
+Deleted: sha256:6c4c223ffc0ce9b880c3fffa78d6c5c4fa65fcef42886e6e390513f0c8460f62
+Deleted: sha256:abc3dfe9508d66bca2780c0ddde632dbf7f41f8a616df93a3dc666e8f9b92326
+Deleted: sha256:5926428d77db237373d94cb91732c93a562eaf60451d95fdb415d33a0f2c223f
+Deleted: sha256:ec34fcc1d526fba48f7f88e4ec765fccc17d4692570db85cf32d9d6b020330f2
+Untagged: test:latest
+Deleted: sha256:d657a1bd9fc1098ab006d59304b196c32ff4d1f0a76832bbd9b526be473c2f37
+Deleted: sha256:8b8bcf0b1336106f3b6c030add17e0c70569ee9f17fbd3d7652ce71997d4355e
+Deleted: sha256:e1cae899ddf425d77e9965fb11e300c8b973dbbdfbe6bb188cd19fbda39898cd
+Deleted: sha256:74b86e5bff5d53c5962ee509ee91f6834d692b5d8a65324609c91277911c6ac4
+Deleted: sha256:2406cc72b0a7e49f9d7ae4bab8579893df24c05e7faecbf0285b9b98be8ebc3c
+Deleted: sha256:f7802e68736a698a3d22f4722d03cb10aaf6ee83e4b436bebd1618308e584166
+Deleted: sha256:c48ff31b56e6127aeee76c369fe3462daadb0135187d9cd1a2063e6b22a1da79
+Deleted: sha256:32206d0b2e15c46ecf51501186856c153a17c8dd946b8c9f86865cd0a6c2249d
+Deleted: sha256:9f5bf931fcf745859ed636309d05d22d216b0056f8ed3314e2f584f092d08bc7
+Deleted: sha256:5a0604387a0d631ae41b1b9ec2f1894d62e592914d670c748277d800b7ff160c
+Untagged: busybox:latest
+Untagged: busybox@sha256:3614ca5eacf0a3a1bcc361c939202a974b4902b9334ff36eb29ffe9011aaad83
+Deleted: sha256:62aedd01bd8520c43d06b09f7a0f67ba9720bdc04631a8242c65ea995f3ecac8
+Deleted: sha256:7ad00cd55506625f2afad262de6002c8cef20d214b353e51d1025e40e8646e18
+Untagged: ubuntu:latest
+Untagged: ubuntu@sha256:b6b83d3c331794420340093eb706a6f152d9c1fa51b262d9bf34594887c2c7ac
+Deleted: sha256:27941809078cc9b2802deb2b0bb6feed6c236cde01e487f200e24653533701ee
+Deleted: sha256:a790f937a6aea2600982de54a5fb995c681dd74f26968d6b74286e06839e4fb3
+Untagged: my-app:1.1
+Deleted: sha256:72e276c43e23ddbe6d365dfd71fe33a6da7e2129c083f0dc00332de852956492
+Deleted: sha256:504149076773b6949ee0bf9b73a9b10cfd8815015dc7ad7549fe70b9109e8300
+Deleted: sha256:838046c88c3e1a7404f4b5b1d870f693685c1bf4da199757d25a00b032d6dd19
+Deleted: sha256:708615c6fb62e113516977c106cec16bc9c6ae32439e7116fe39d02d4060476e
+Deleted: sha256:52c4ea8e1f20591fc06f80c4ef693a7328378212b6a4a4c32110e1b09cc6ae45
+Deleted: sha256:fcd3db9519cf9db486cdc93acbeb1314583352dc0e421038643c26fff25a2c3b
+Deleted: sha256:b95d3bb8d8165819d59af651c56804064f7d23b928efe8dab4cc8f5e1f09cb7c
+Deleted: sha256:c439ae01eaf92cf3410233ebaa18685b6a8653836fda7b184c1697fec7ae5108
+Untagged: mysql:latest
+Untagged: mysql@sha256:548da4c67fd8a71908f17c308b8ddb098acf5191d3d7694e56801c6a8b2072cc
+Deleted: sha256:65b636d5542b73254ce90cc4b895597dc1adc2c661ca553c38eda159979dded1
+Deleted: sha256:dee1668bdb04598befa08bea0b9b2342bbe08f772cd5c428b900b8f0c31ec28d
+Deleted: sha256:b2d6d8f7187475742388e9c50a655afc8d30ee56fd95d6356bb64495afcbcad5
+Deleted: sha256:c988322256a875a955a601ed3481a9799e601a9e56f8e8a2ddd6d6ff3a2e0361
+Deleted: sha256:d077305a427dc189d8c363ebda9be98c528adb3e941092ef18be900e91115ce7
+Deleted: sha256:4264bb2656f1d78c8f6e0d4ff12ed5edbc9d1904cf0f7f05295e380fca4d4376
+Deleted: sha256:aea4fcaf4a44b4ce254718a5699557d5a278182a060683e9fcab117281c710c5
+Deleted: sha256:87e7690acc799fa14efd95056b81ca599d7587771add57bb73f9066e3a1a1d10
+Deleted: sha256:efb1655b4e285047d5fc78392e33a2f0b4156997e69b0833a6b78774674085d6
+Deleted: sha256:fabb64857683e1f35472debb5a12a6bf2e081b5766c69874c0528086737434fb
+Deleted: sha256:cf7b1ec7aec8704bd8369c4307ecf4931b0afd2d3f912c0a6066c2ac6443ac28
+Deleted: sha256:6c9d31c0820816a60a4320711febf8710a1d053f1f3a424e1f071b65263da7d1
+Deleted: sha256:10e6bc6fdee2d9a0d1ac5e78a031b5670f37d75599ba609cbd1d027af78f7bf4
+Untagged: mongo:latest
+Untagged: mongo@sha256:50d8918de7b076feceb9ba1ee264afd5f67fb4baaff07949f3b9de92cdca79c2
+Deleted: sha256:96c85f49715a19320f201ed70f73f8ce67962200a3e798dec12111fac170b6da
+Deleted: sha256:d326eb614b419b1d2631b2ee3cfe539dec1f67b5993684757da068bde5992e5e
+Deleted: sha256:2f09d6fb58771b7d782a8079db26317b41d8f0c6e4cd3a40d578a022d0d61925
+Deleted: sha256:3e694027d699b4b8e69d9f179f446352dcab80a8c7a822d503bcf8e1a24bfffd
+Deleted: sha256:29827528cadb6ac7259df6bda866df118f683a3a9c787252279ae25be3b532e6
+Deleted: sha256:5c4333e25794525a4acce78707ffc3c5d7a542ff8b061e91eaab89c1ff4f4235
+Deleted: sha256:4c29423f089f7db128a5cbb3c5853ca77eef39dd1ac796584ad8d678b31e65f1
+Deleted: sha256:295f0f36e02442956ff24052972107fbc6292527b128f0665dfd781f7c77132b
+Deleted: sha256:f4424974e05f9f4e7361aa0ca25489895cabed93cf18df24abb1edade1cebc0c
+Deleted: sha256:bf8cedc62fb3ef98ad0dff2be56ca451dd3ea69abd0031ad3e0fe5d9f9e4dfff
+Untagged: alpine:latest
+Untagged: alpine@sha256:686d8c9dfa6f3ccfc8230bc3178d23f84eeaf7e457f36f271ab1acc53015037c
+Deleted: sha256:e66264b98777e12192600bf9b4d663655c98a090072e1bab49e233d7531d1294
+Deleted: sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d
+Untagged: node:latest
+Untagged: node@sha256:3e2e7e08f088c7c9c0c836622f725540ade205f10160a91dd3cc899170d410ef
+Deleted: sha256:e80747567b58d7b5e0d31bf5f148951582d4bdf57aa02fe475b6316e1fb851cb
+Deleted: sha256:2e1c3e6a06c752699628ce530acfa4738e1a7eaa1cb9b1e2d32e0e1c89aec8a0
+Deleted: sha256:9b7a8c130144eb797d507b41495fc81c01397646bb5134d00f87d36d628abef5
+Deleted: sha256:01dbd2eeae95fa084e95a3a8e681ddb93ce991b7ffc14d732a57edbb326b1f1b
+Deleted: sha256:93c511e3ac56e5c6226bdc7bcc6b3c9cf4de7e5279d713ce1c3e2f9e30ddcc0c
+Deleted: sha256:8541f17fbc11dd1b8b8b52d75000531fc87c5c2361d85931163448dc2a791663
+Deleted: sha256:959af554d011d668e2b34b26708ba3c32aa49234362ffe8631e0d0867b63488b
+Deleted: sha256:4de1922dd4b9bfb4c320c68b6d43bd550a6573374fccbe279a9092be4ea300cc
+Deleted: sha256:8ea959ee76797a3df3f97dad91b94b420cfa8620e36cf0ffcd4eaac5e17ae05d
+Deleted: sha256:78658088978a7596a65f6e864cd30ae00697c62b2b0b82ebf766239ae9c2ed6d
+Untagged: mongo-express:latest
+Untagged: mongo-express@sha256:2a25aafdf23296823b06bc9a0a2af2656971262041b8dbf11b40444804fdc104
+Deleted: sha256:2d2fb2cabc8fa6b894bd7c82158dd7a9dd5815d240f75a93db0d853f008cfd20
+Deleted: sha256:27e3221da5243c3982f660cd4a30337fe8f092324df2ccf09567047a1f4658a1
+Deleted: sha256:a0702b7b1282d2744411c6b65c5ef13f9b16ebae4e7281d6086330720b85b9bc
+Deleted: sha256:7375110e93e03679c158a7a6680aacf1ad146cbce36db06eac424bbd081a6ce3
+Deleted: sha256:70c730b5834da81cc466c27ea3c5f6aed872a0afbf8ced25bb4710f43983368a
+Deleted: sha256:46fde86c42c372f2ffe2aa817351f4852d55d59b9c99fee0557ca4ab58d03fa0
+Deleted: sha256:29ea61543beb737fc2b79ba3d2e3881ec834fc5ab78d674eef1e365668b7e8a1
+Deleted: sha256:0675e699c63f38af9f129426d15ffc0bc6550daad4110ffb097f73e1c9da1e14
+Deleted: sha256:39982b2a789afc156fff00c707d0ff1c6ab4af8f1666a8df4787714059ce24e7
+Untagged: hello-world:latest
+Untagged: hello-world@sha256:aa0cc8055b82dc2509bed2e19b275c8f463506616377219d9642221ab53cf9fe
+Deleted: sha256:feb5d9fea6a5e9606aa995e879d862b825965ba48de054caab5ef356dc6b3412
+Deleted: sha256:e07ee1baac5fae6a26f30cabfe54a36d3402f96afda318fe0a96cec4ca393359
+Untagged: centos:latest
+Untagged: centos@sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
+Deleted: sha256:5d0da3dc976460b72c77d94c8a1ad043720b0416bfc16c52c45d4847e53fadb6
+Deleted: sha256:74ddd0ec08fa43d09f32636ba91a0a3053b02cb4627c35051aff89f853606b59
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hcclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker ps -s as[?1l>[?2004l
+]2;docker ps -as]1;dockerCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004hddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[1m[7m%[27m[1m[0m                                                                                                                                                    ]2;ali@laptop:~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2]1;..1/exercise1.2[0m[27m[24m[J[1m[32mali@laptop[00m:[1m[34m~/code/junk/helsinki-university-docker-course-exercises/part1/exercise1.2[00m [31m[00m
+[34mmain [31m✗[00m[00m [1m$[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-01-27 00:28:37+02:00 [COMMAND_EXIT_CODE="0"]
