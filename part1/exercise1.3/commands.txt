@@ -1,0 +1,31 @@
+Script started on 2023-01-27 14:35:57+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+$ clear
+[H[2J[3J$ dc ocker run d -d --name my_cont     -container devopsdockeruh/simple-web-service:ubuntu
+49dae7607272e33ea5e74e2169bfcd54118a1ccea6cb4b5c951f2a2ae952a892
+$ docker exec -it my-container bash
+]0;root@49dae7607272: /usr/src/approot@49dae7607272:/usr/src/app# ls
+[0m[01;32mserver[0m  text.log
+]0;root@49dae7607272: /usr/src/approot@49dae7607272:/usr/src/app# tail -f text.log 
+2023-01-27 12:36:19 +0000 UTC
+2023-01-27 12:36:21 +0000 UTC
+2023-01-27 12:36:23 +0000 UTC
+2023-01-27 12:36:25 +0000 UTC
+2023-01-27 12:36:27 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-01-27 12:36:29 +0000 UTC
+2023-01-27 12:36:31 +0000 UTC
+2023-01-27 12:36:33 +0000 UTC
+2023-01-27 12:36:35 +0000 UTC
+2023-01-27 12:36:37 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-01-27 12:36:39 +0000 UTC
+2023-01-27 12:36:41 +0000 UTC
+2023-01-27 12:36:43 +0000 UTC
+2023-01-27 12:36:45 +0000 UTC
+^C
+]0;root@49dae7607272: /usr/src/approot@49dae7607272:/usr/src/app# ^C
+]0;root@49dae7607272: /usr/src/approot@49dae7607272:/usr/src/app# exit
+exit
+$ exit
+
+Script done on 2023-01-27 14:36:58+02:00 [COMMAND_EXIT_CODE="130"]
