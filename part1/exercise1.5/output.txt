@@ -1,0 +1,53 @@
+Script started on 2023-01-28 19:10:59+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+$ clear
+[H[2J[3J$ docker pull devopsdockeruh/simple-web-service:ubuntu
+ubuntu: Pulling from devopsdockeruh/simple-web-service
+Digest: sha256:d44e1dce398732e18c7c2bad9416a072f719af33498302b02929d4c112e88d2a
+Status: Image is up to date for devopsdockeruh/simple-web-service:ubuntu
+docker.io/devopsdockeruh/simple-web-service:ubuntu
+$ ^[[A^[      docker pull devopsdockeruh/simple-web-service:ubuntu      alpine
+alpine: Pulling from devopsdockeruh/simple-web-service
+Digest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Image is up to date for devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+$ clear
+[H[2J[3J$ docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+ubuntu                              18.04     e28a50f651f9   3 weeks ago     63.1MB
+ubuntu                              latest    6b7dfa7e8fdb   7 weeks ago     77.8MB
+mongo                               3.6       2f21415cb85f   21 months ago   453MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   22 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   22 months ago   15.7MB
+quay.io/nordstrom/hello-world       2.0       c52585b8d1c9   6 years ago     208MB
+$ ^[[A    docker images | grep devopos  s
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   22 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   22 months ago   15.7MB
+$ docker run -d devopsdockeruh/simple-web-service:ubuntu      alpine
+966dcd4e5ecbebf8d75ca2e23cf942cf867c0c1f6dc76e296ad034a02a1bdae1
+$ docker a exec -it 966a d bash
+OCI runtime exec failed: exec failed: container_linux.go:367: starting container process caused: exec: "bash": executable file not found in $PATH: unknown
+$ ^[[A^[[B        docker exec -it 966d sh
+/usr/src/app # [6n/usr/src/app # [Jls
+[1;32mserver[m    [0;0mtext.log[m
+/usr/src/app # [6ntail -f t/usr/src/app # tail -f text.log [J
+2023-01-28 17:12:49 +0000 UTC
+2023-01-28 17:12:51 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-01-28 17:12:53 +0000 UTC
+2023-01-28 17:12:55 +0000 UTC
+2023-01-28 17:12:57 +0000 UTC
+2023-01-28 17:12:59 +0000 UTC
+2023-01-28 17:13:01 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-01-28 17:13:03 +0000 UTC
+2023-01-28 17:13:05 +0000 UTC
+2023-01-28 17:13:07 +0000 UTC
+2023-01-28 17:13:09 +0000 UTC
+2023-01-28 17:13:11 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-01-28 17:13:13 +0000 UTC
+^C
+/usr/src/app # [6nexit
+$ exit^[  ^[  ^H^[        docker ps -as             exit
+
+Script done on 2023-01-28 19:13:26+02:00 [COMMAND_EXIT_CODE="130"]
