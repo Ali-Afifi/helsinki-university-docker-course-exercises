@@ -1,0 +1,2619 @@
+Script started on 2023-01-28 19:20:44+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+$ docker run -it devopsdockeruh/pull_exercise
+Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
+latest: Pulling from devopsdockeruh/pull_exercise
+
+[1A[2K8e402f1a9c57: Pulling fs layer [1B
+[1A[2K5e2195587d10: Pulling fs layer [1B
+[1A[2K6f595b2fc66d: Pulling fs layer [1B
+[1A[2K165f32bf4e94: Pulling fs layer [1B
+[1A[2K67c4f504c224: Pulling fs layer [1B[2A[2K165f32bf4e94: Waiting [2B[1A[2K67c4f504c224: Waiting [1B[3A[2K6f595b2fc66d: Downloading [>                                                  ]  13.69kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [>                                                  ]  28.11kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [==>                                                ]  54.67kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [=>                                                 ]  59.56kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [===>                                               ]  86.68kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [=>                                                 ]   90.2kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [===>                                               ]  102.5kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [==>                                                ]  118.7kB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [==>                                                ]  147.3kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [=====>                                             ]  152.2kB/1.332MB[3B[3A[2K6f595b2fc66d: Downloading [=======>                                           ]  200.8kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [===>                                               ]  206.1kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [>                                                  ]  226.2kB/21.6MB[4B[3A[2K6f595b2fc66d: Downloading [=========>                                         ]  262.1kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [====>                                              ]  275.4kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [============>                                      ]  344.1kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [======>                                            ]  340.9kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [=================>                                 ]  475.1kB/1.332MB[3B[4A[2K5e2195587d10: Downloading [=>                                                 ]  455.6kB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [========>                                          ]    472kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [====================>                              ]  557.1kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [=========>                                         ]  537.5kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [========================>                          ]    644kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [==========>                                        ]    603kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=>                                                 ]  680.9kB/21.6MB[4B[3A[2K6f595b2fc66d: Downloading [===========================>                       ]  725.9kB/1.332MB[3B[3A[2K6f595b2fc66d: Downloading [=============================>                     ]  775.1kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [============>                                      ]  668.6kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [=================================>                 ]  889.8kB/1.332MB[3B[4A[2K5e2195587d10: Downloading [==>                                                ]  910.2kB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [==============>                                    ]  799.6kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [=====================================>             ]  988.1kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [===============>                                   ]  865.2kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [=========================================>         ]  1.103MB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [================>                                  ]  930.7kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [==>                                                ]   1.14MB/21.6MB[4B[3A[2K6f595b2fc66d: Downloading [=============================================>     ]  1.217MB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [==================>                                ]  996.3kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [===============================================>   ]  1.267MB/1.332MB[3B[3A[2K6f595b2fc66d: Downloading [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Download complete [3B[5A[2K8e402f1a9c57: Downloading [===================>                               ]  1.095MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [===>                                               ]  1.369MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [====================>                              ]  1.127MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [=====================>                             ]   1.16MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [===>                                               ]  1.598MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [======================>                            ]  1.258MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [====>                                              ]  1.828MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=========================>                         ]  1.389MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [=========================>                         ]  1.422MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [===========================>                       ]  1.488MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [====>                                              ]  2.057MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [============================>                      ]  1.553MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=====>                                             ]  2.287MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [==============================>                    ]  1.684MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [===============================>                   ]  1.717MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=====>                                             ]  2.504MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=================================>                 ]  1.848MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [==================================>                ]  1.881MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [======>                                            ]  2.733MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [===================================>               ]  1.979MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [=====================================>             ]  2.078MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [======>                                            ]  2.962MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=======================================>           ]  2.176MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=======>                                           ]  3.192MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=========================================>         ]  2.274MB/2.755MB[5B[2A[2K165f32bf4e94: Downloading [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Verifying Checksum [2B[2A[2K165f32bf4e94: Download complete [2B[5A[2K8e402f1a9c57: Downloading [=========================================>         ]  2.307MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [===========================================>       ]  2.405MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=======>                                           ]  3.421MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [==============================================>    ]  2.536MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [========>                                          ]   3.65MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [==============================================>    ]  2.569MB/2.755MB[5B[5A[2K8e402f1a9c57: Downloading [===============================================>   ]  2.635MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [========>                                          ]  3.868MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=================================================> ]  2.733MB/2.755MB[5B[5A[2K8e402f1a9c57: Verifying Checksum [5B[5A[2K8e402f1a9c57: Download complete [5B[5A[2K8e402f1a9c57: Extracting [>                                                  ]  32.77kB/2.755MB[5B[5A[2K8e402f1a9c57: Extracting [==================================================>]  2.755MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=========>                                         ]  4.097MB/21.6MB[4B[5A[2K8e402f1a9c57: Pull complete [5B[4A[2K5e2195587d10: Downloading [==========>                                        ]  4.326MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==========>                                        ]  4.556MB/21.6MB[4B[1A[2K67c4f504c224: Downloading [=======>                                           ]  1.369kB/9.267kB[1B[1A[2K67c4f504c224: Downloading [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Download complete [1B[4A[2K5e2195587d10: Downloading [===========>                                       ]  4.785MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===========>                                       ]  5.014MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [============>                                      ]  5.244MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [============>                                      ]  5.473MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=============>                                     ]  5.932MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==============>                                    ]  6.161MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==============>                                    ]  6.391MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============>                                   ]   6.62MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============>                                   ]  6.849MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [================>                                  ]  7.079MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [================>                                  ]  7.308MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=================>                                 ]  7.538MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==================>                                ]  7.996MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===================>                               ]  8.226MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===================>                               ]  8.455MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [====================>                              ]  8.684MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=====================>                             ]  9.143MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [======================>                            ]  9.602MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [======================>                            ]  9.831MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=======================>                           ]  10.29MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [========================>                          ]  10.51MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=========================>                         ]  10.96MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=========================>                         ]  11.19MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==========================>                        ]  11.42MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==========================>                        ]  11.65MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===========================>                       ]  11.88MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [============================>                      ]   12.1MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [============================>                      ]  12.33MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=============================>                     ]  12.56MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==============================>                    ]  13.02MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==============================>                    ]  13.25MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============================>                   ]  13.48MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============================>                   ]  13.71MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [================================>                  ]  14.17MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=================================>                 ]  14.63MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==================================>                ]  14.86MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===================================>               ]  15.31MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===================================>               ]  15.54MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [====================================>              ]  15.77MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=====================================>             ]     16MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [======================================>            ]  16.45MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=======================================>           ]  16.91MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [========================================>          ]  17.37MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=========================================>         ]  17.83MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==========================================>        ]  18.29MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===========================================>       ]  18.75MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [============================================>      ]  19.21MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=============================================>     ]  19.67MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==============================================>    ]  20.12MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============================================>   ]  20.58MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [================================================>  ]  21.03MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=================================================> ]  21.49MB/21.6MB[4B[4A[2K5e2195587d10: Verifying Checksum [4B[4A[2K5e2195587d10: Download complete [4B[4A[2K5e2195587d10: Extracting [>                                                  ]  229.4kB/21.6MB[4B[4A[2K5e2195587d10: Extracting [===========>                                       ]  5.046MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [====================================>              ]   15.6MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==========================================>        ]  18.35MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=============================================>     ]  19.73MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==================================================>]   21.6MB/21.6MB[4B[4A[2K5e2195587d10: Pull complete [4B[3A[2K6f595b2fc66d: Extracting [=>                                                 ]  32.77kB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [========>                                          ]  229.4kB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Pull complete [3B[2A[2K165f32bf4e94: Extracting [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Extracting [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Pull complete [2B[1A[2K67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Pull complete [1BDigest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
+Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
+[1G[0JGive me the password: [23Gsa[1G[0JGive me the password: s[24G[1G[0JGive me the password: [23G$ l
+sh: 2: l: not found
+$ ls
+output.txt
+$ docker ps
+CONTAINER ID   IMAGE                          COMMAND           CREATED              STATUS              PORTS     NAMES
+c4bd4bcd0263   devopsdockeruh/pull_exercise   "node index.js"   About a minute ago   Up About a minute             confident_roentgen
+$ docker exec -it c4bd bash
+OCI runtime exec failed: exec failed: container_linux.go:367: starting container process caused: exec: "bash": executable file not found in $PATH: unknown
+$ docker exec -t it c4d bd sh
+/usr/app # [6n/usr/app # [Jl
+sh: l: not found
+/usr/app # [6nls
+[0;0mDockerfile[m  [0;0mREADME.md[m   [0;0mindex.js[m
+/usr/app # [6ncat [J[J[J[Jless docekr[J[J[J[J[J[JDocker [Jfile
+[0;0H[KFROM node:alpine
+[K
+[KWORKDIR /usr/app
+[KCOPY . .
+[K
+[KCMD ["node", "index.js"]
+[K
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[35;0H[K[7mDockerfile[m[0;0H[KFROM node:alpine
+[K
+[KWORKDIR /usr/app
+[KCOPY . .
+[K
+[KCMD ["node", "index.js"]
+[K
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[35;0H[K[7mDockerfile[m[0;0H[KFROM node:alpine
+[K
+[KWORKDIR /usr/app
+[KCOPY . .
+[K
+[KCMD ["node", "index.js"]
+[K
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[35;0H[K[7mDockerfile[m[0;0H[KFROM node:alpine
+[K
+[KWORKDIR /usr/app
+[KCOPY . .
+[K
+[KCMD ["node", "index.js"]
+[K
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[K~
+[35;0H[K[7mDockerfile[m[35;0H[K/usr/app # [6nls [J[J[Jless ind/usr/app # less index.js [J
+[0;0H[Kconst readline = require('readline')
+[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[35;0H[K[7mindex.js[m[0;0H[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[35;0H[K:[0;0H[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[35;0H[K:[0;0H[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[35;0H[K:[0;0H[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[35;0H[K:[0;0H[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[35;0H[K:[0;0H[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[35;0H[K:[0;0H[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[35;0H[K:[0;0H[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[35;0H[K:[0;0H[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[35;0H[K:[0;0H[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[35;0H[K:[0;0H[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[35;0H[K:[0;0H[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[35;0H[K:[0;0H[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[35;0H[K:[0;0H[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[35;0H[K:[0;0H[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[35;0H[K:[0;0H[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[35;0H[K:[0;0H[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[35;0H[K:[0;0H[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[35;0H[K:[0;0H[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[35;0H[K:[0;0H[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[35;0H[K:[0;0H[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[35;0H[K:[0;0H[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[35;0H[K:[0;0H[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[35;0H[K:[0;0H[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[35;0H[K:[0;0H[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[35;0H[K:[0;0H[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[35;0H[K:[0;0H[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[35;0H[K:[0;0H[Kconst readline = require('readline')
+[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[35;0H[K[7mindex.js[m[0;0H[Kconst readline = require('readline')
+[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[35;0H[K[7mindex.js[m[0;0H[Kconst readline = require('readline')
+[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[35;0H[K[7mindex.js[m[0;0H[Kconst readline = require('readline')
+[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[35;0H[K[7mindex.js[m[0;0H[Kconst readline = require('readline')
+[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[35;0H[K[7mindex.js[m[0;0H[K
+[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[35;0H[K:[0;0H[Kconst rl = readline.createInterface({
+[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[35;0H[K:[0;0H[K  input: process.stdin,
+[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[35;0H[K:[0;0H[K  output: process.stdout
+[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[35;0H[K:[0;0H[K})
+[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[35;0H[K:[0;0H[K
+[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[35;0H[K:[0;0H[Kconst close = (version) => () => {
+[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[35;0H[K:[0;0H[K  const message = {
+[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[35;0H[K:[0;0H[K    "close": "Closing now",
+[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[35;0H[K:[0;0H[K    "exit": "Exiting now",
+[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[35;0H[K:[0;0H[K    "quit": "Quitting now",
+[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[35;0H[K:[0;0H[K    "empty": "Empty string was given, quitting now. Input help for more info"
+[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[35;0H[K:[0;0H[K  }
+[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[35;0H[K:[0;0H[K  console.log(message[version])
+[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[35;0H[K:[0;0H[K  return false
+[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[35;0H[K:[0;0H[K}
+[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[35;0H[K:[0;0H[K
+[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[35;0H[K:[0;0H[Kconst help = () => () => {
+[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[35;0H[K:[0;0H[K  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[35;0H[K:[0;0H[K  return true
+[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[35;0H[K:[0;0H[K}
+[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[35;0H[K:[0;0H[K
+[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[35;0H[K:[0;0H[Kconst victory = () => () => {
+[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[35;0H[K:[0;0H[K  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[35;0H[K:[0;0H[K  return false
+[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[35;0H[K:[0;0H[K}
+[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[35;0H[K:[0;0H[K
+[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[0;0H[Kconst KNOWN_INPUTS = {
+[K  "exit": close('exit'),
+[K  "close": close('close'),
+[K  "quit": close('quit'),
+[K  "": close('empty'),
+[K  "help": help(),
+[K  "basics": victory()
+[K}
+[K
+[K
+[Kconst handlePassword = (password) => {
+[K  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+[K  if (keepGoing === undefined) {
+[K    console.log(`${password} is not the correct password, please try again`)
+[K    return true
+[K  }
+[K  return keepGoing()
+[K}
+[K
+[Kconst askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+[K
+[Kconst passwordLoop = async () => {
+[K  let keepAsking = true
+[K  while (keepAsking) {
+[K    const password = await askPassword()
+[K    keepAsking = handlePassword(password)
+[K    console.log('')
+[K  }
+[K  rl.close()
+[K}
+[K
+[KpasswordLoop()
+[K
+[K~
+[35;0H[K[7m(END)[m[35;0H[K/usr/app # [6nexit
+$ clear
+[H[2J[3J$ docker ps
+CONTAINER ID   IMAGE                          COMMAND           CREATED         STATUS         PORTS     NAMES
+c4bd4bcd0263   devopsdockeruh/pull_exercise   "node index.js"   3 minutes ago   Up 3 minutes             confident_roentgen
+$ docker atta	ch --de	tach-stdin=""^[[D     "^[[D     ctrl-a x" c4bd
+unknown flag: --detach-stdin
+See 'docker attach --help'.
+$ docker attach --help
+
+Usage:  docker attach [OPTIONS] CONTAINER
+
+Attach local standard input, output, and error streams to a running container
+
+Options:
+      --detach-keys string   Override the key sequence for detaching a container
+      --no-stdin             Do not attach STDIN
+      --sig-proxy            Proxy all received signals to the process (default true)
+$ docker attach --detacg h= -keys ""^[[D     ctrl-x" c4db  v bs d
+[1G[0JGive me the password: [23G[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+$ ls
+output.txt
+$ touc    echo ""^[[D     " basics" > password.txt
+$ echp   o 'Secret message is:
+"This is the secret message"
+> > ' ?   >   secret-message.txt
+$ ls
+output.txt  password.txt  secret-message.txt
+$ cat pas	sw	orf d
+cat: password: No such file or directory
+$ ^[[A^[[B ^[  ^[         cat ps assword.txt
+basics
+$ cat se	^[  cret-message.txt
+Secret message is:
+"This is the secret message"
+
+$ exit
+
+Script done on 2023-01-28 19:27:39+02:00 [COMMAND_EXIT_CODE="0"]
