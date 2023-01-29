@@ -1,0 +1,52 @@
+Script started on 2023-01-29 15:28:05+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+$ clear
+[H[2J[3J$ docker images
+REPOSITORY                          TAG              IMAGE ID       CREATED          SIZE
+backend-example                     latest           edf247497009   10 minutes ago   644MB
+<none>                              <none>           25f74cca630b   11 minutes ago   644MB
+frontend-example                    latest           7e8122ec04b7   2 hours ago      461MB
+test-java                           latest           e0ba86385cad   12 hours ago     611MB
+youtube-dl                          latest           b01b484e408b   15 hours ago     154MB
+curler                              latest           f31a1074e730   19 hours ago     129MB
+web-server                          latest           c46a95f708a9   19 hours ago     15.7MB
+hello-docker                        v2               533feece6f01   19 hours ago     5.62MB
+hello-docker                        2.6.7            5a6f03c71fd0   19 hours ago     5.62MB
+hello-docker-modified               1.2              189c62344ab1   19 hours ago     5.62MB
+hello-docker                        latest           46b86b98bba5   20 hours ago     5.62MB
+node                                16.19.0-alpine   0e1140518c5f   2 weeks ago      118MB
+ubuntu                              18.04            e28a50f651f9   3 weeks ago      63.1MB
+ubuntu                              latest           6b7dfa7e8fdb   7 weeks ago      77.8MB
+ubuntu                              20.04            d5447fc01ae6   7 weeks ago      72.8MB
+alpine                              3.13             6b5c5e00213a   5 months ago     5.62MB
+openjdk                             8                b273004037cc   6 months ago     526MB
+golang                              1.16-alpine      7642119cd161   11 months ago    302MB
+mongo                               3.6              2f21415cb85f   21 months ago    453MB
+devopsdockeruh/simple-web-service   ubuntu           4e3362e907d5   22 months ago    83MB
+devopsdockeruh/simple-web-service   alpine           fd312adc88e0   22 months ago    15.7MB
+devopsdockeruh/simple-web-service   latest           99f995eeaa58   22 months ago    10.1MB
+devopsdockeruh/pull_exercise        latest           d9854bc0e13a   3 years ago      75.3MB
+quay.io/nordstrom/hello-world       2.0              c52585b8d1c9   6 years ago      208MB
+$ docker      clear
+[H[2J[3J$ docker p ru  ps 
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+$ clear
+[H[2J[3J$ docker run -d -p 8080:800 80 backend-example:lats est
+6bd76e6885d74e3b425c94bd9a9e8bf3291eacd24ddaf87c603fb2b623e1ab84
+$ docker logs 6bd
+[Ex 2.4+] REDIS_HOST env was not passed so redis connection is not initialized
+[Ex 2.6+] POSTGRES_HOST env was not passed so postgres connection is not initialized
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> server/router.pingpong (4 handlers)
+[GIN-debug] GET    /messages                 --> server/controller.GetMessages (4 handlers)
+[GIN-debug] POST   /messages                 --> server/controller.CreateMessage (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+$ curl http:     localhost:8080/ping
+pong$ 
+$ exit
+
+Script done on 2023-01-29 15:29:24+02:00 [COMMAND_EXIT_CODE="0"]
