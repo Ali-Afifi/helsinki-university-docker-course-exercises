@@ -1,0 +1,33 @@
+Script started on 2023-01-29 14:02:18+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+$ docker iamges     mages
+REPOSITORY                          TAG              IMAGE ID       CREATED         SIZE
+frontend-example                    latest           7e8122ec04b7   4 minutes ago   461MB
+test-java                           latest           e0ba86385cad   11 hours ago    611MB
+youtube-dl                          latest           b01b484e408b   13 hours ago    154MB
+curler                              latest           f31a1074e730   17 hours ago    129MB
+web-server                          latest           c46a95f708a9   18 hours ago    15.7MB
+hello-docker                        v2               533feece6f01   18 hours ago    5.62MB
+hello-docker                        2.6.7            5a6f03c71fd0   18 hours ago    5.62MB
+hello-docker-modified               1.2              189c62344ab1   18 hours ago    5.62MB
+hello-docker                        latest           46b86b98bba5   18 hours ago    5.62MB
+node                                16.19.0-alpine   0e1140518c5f   2 weeks ago     118MB
+ubuntu                              18.04            e28a50f651f9   3 weeks ago     63.1MB
+ubuntu                              latest           6b7dfa7e8fdb   7 weeks ago     77.8MB
+ubuntu                              20.04            d5447fc01ae6   7 weeks ago     72.8MB
+alpine                              3.13             6b5c5e00213a   5 months ago    5.62MB
+openjdk                             8                b273004037cc   6 months ago    526MB
+mongo                               3.6              2f21415cb85f   21 months ago   453MB
+devopsdockeruh/simple-web-service   ubuntu           4e3362e907d5   22 months ago   83MB
+devopsdockeruh/simple-web-service   alpine           fd312adc88e0   22 months ago   15.7MB
+devopsdockeruh/simple-web-service   latest           99f995eeaa58   22 months ago   10.1MB
+devopsdockeruh/pull_exercise        latest           d9854bc0e13a   3 years ago     75.3MB
+quay.io/nordstrom/hello-world       2.0              c52585b8d1c9   6 years ago     208MB
+$ docker run -d -p 5000:5000 frontend-example
+e3af84f4e71e88cdac3c7bdffb3f72064370afd098782db28592b848c9d54f29
+$ docker logs e3a
+ INFO  Accepting connections at http://localhost:5000
+$ curl hto        curl http://localhost:5000
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Frontend for docker course"/><link rel="manifest" href="/manifest.json"/><title>Docker frontend</title><link href="/static/css/main.eaa5d75e.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,f=r[0],a=r[1],p=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(i&&i(r);s.length;)s.shift()();return u.push.apply(u,p||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var a=t[f];0!==o[a]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this["webpackJsonpexample-frontend"]=this["webpackJsonpexample-frontend"]||[],a=f.push.bind(f);f.push=r,f=f.slice();for(var p=0;p<f.length;p++)r(f[p]);var i=a;t()}([])</script><script src="/static/js/2.43ca3586.chunk.js"></script><script src="/static/js/main.efdc7a07.chunk.js"></script></body></html>$ c ^C
+$ exit
+
+Script done on 2023-01-29 14:03:13+02:00 [COMMAND_EXIT_CODE="130"]
