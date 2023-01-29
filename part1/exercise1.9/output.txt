@@ -1,0 +1,25 @@
+Script started on 2023-01-29 02:26:40+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="151" LINES="38"]
+$ touch log         mkdir logs
+$ touch logs/text.log
+$ docker run -dv "$(pwd)"/logs/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service:alpine
+095af8e87eae6e55a80615c572a521f2a3be394abe9e6f0542c219538484ffd2
+$ docker logs 095
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+$ cat 	logs/r	 t	ex	t.log
+2023-01-29 00:27:03 +0000 UTC
+2023-01-29 00:27:05 +0000 UTC
+2023-01-29 00:27:07 +0000 UTC
+2023-01-29 00:27:09 +0000 UTC
+2023-01-29 00:27:11 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-01-29 00:27:13 +0000 UTC
+2023-01-29 00:27:15 +0000 UTC
+2023-01-29 00:27:17 +0000 UTC
+2023-01-29 00:27:19 +0000 UTC
+$ clear
+[H[2J[3J$ exot  it
+
+Script done on 2023-01-29 02:27:28+02:00 [COMMAND_EXIT_CODE="0"]
