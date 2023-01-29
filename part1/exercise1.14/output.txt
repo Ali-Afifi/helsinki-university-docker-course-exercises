@@ -1,0 +1,39 @@
+Script started on 2023-01-29 17:51:49+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+$ clear
+[H[2J[3J$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+$ docker ia mages | grp ep w example
+backend-example                     exe1.14          3ff89dec9ebb   3 minutes ago   644MB
+frontend-example                    exe1.14          75a625015546   6 minutes ago   461MB
+backend-example                     latest           edf247497009   3 hours ago     644MB
+frontend-example                    latest           7e8122ec04b7   4 hours ago     461MB
+$ docker run -d -p 5000:550  000 frin  ont: end-example:exe1.14
+8d5355876db8fd196e08a404a88e0b1d5b584ed464f50f1c5c3a7389b59dbf2a
+$ docker logs 8d5
+$ ^[[A    ^[[A^[[B        docker logs 8	d5	
+ INFO  Accepting connections at http://localhost:5000
+$ cl  d clear
+[H[2J[3J$ docker un  run -d -p 08  8080:8080 backend-example  L :exe1.14
+756f868ac3f26ae8ece86b5f49953b7d8c94ca53f62b6af80699b6a208bf22ee
+$ clear
+[H[2J[3J$ docker ps
+CONTAINER ID   IMAGE                      COMMAND                  CREATED          STATUS          PORTS                    NAMES
+756f868ac3f2   backend-example:exe1.14    "./server"               3 seconds ago    Up 2 seconds    0.0.0.0:8080->8080/tcp   gracious_aryabhata
+8d5355876db8   frontend-example:exe1.14   "docker-entrypoint.s…"   50 seconds ago   Up 49 seconds   0.0.0.0:5000->5000/tcp   vibrant_neumann
+$ docker los gs 74 6+  56
+[Ex 2.4+] REDIS_HOST env was not passed so redis connection is not initialized
+[Ex 2.6+] POSTGRES_HOST env was not passed so postgres connection is not initialized
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> server/router.pingpong (4 handlers)
+[GIN-debug] GET    /messages                 --> server/controller.GetMessages (4 handlers)
+[GIN-debug] POST   /messages                 --> server/controller.CreateMessage (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+$ ^C
+$ exit
+
+Script done on 2023-01-29 17:53:38+02:00 [COMMAND_EXIT_CODE="130"]
