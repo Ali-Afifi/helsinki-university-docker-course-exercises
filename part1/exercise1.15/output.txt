@@ -1,0 +1,35 @@
+Script started on 2023-01-30 16:45:52+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="134" LINES="35"]
+$ docker ps  images | grep st  types script
+testing-typescript                  latest           6f7513839728   6 minutes ago   214MB
+$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+$ docker run -d -p 8080:8080 testing-typescript:latest
+24ebab118eecbea519496230f164002c03682df40cb4156665bb814c01eea595
+$ docker logs 24e	
+
+> testing-ts@1.0.0 dev
+> nodemon ./src/index.ts
+
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/index.ts`[39m
+listening on http://localhost:8080
+$ curl htto [:  [ p://localhost:8080
+Hello, world!$ 
+$ docker logs 24e
+
+> testing-ts@1.0.0 dev
+> nodemon ./src/index.ts
+
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/index.ts`[39m
+listening on http://localhost:8080
+::ffff:172.17.0.1 /
+$ exit
+
+Script done on 2023-01-30 16:47:12+02:00 [COMMAND_EXIT_CODE="0"]
