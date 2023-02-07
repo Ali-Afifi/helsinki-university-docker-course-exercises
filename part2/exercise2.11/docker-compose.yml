@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  my-app:
+    build: .
+    restart: always
+    container_name: testing
+    volumes:
+      - .:/home/node/app
+    ports:
+      - 8080:8080
+    command: ["npm", "run", "dev"]
