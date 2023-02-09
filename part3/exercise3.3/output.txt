@@ -1,0 +1,28 @@
+Script started on 2023-02-09 02:13:36+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="134" LINES="35"]
+$ docker ps
+CONTAINER ID   IMAGE                 COMMAND                  CREATED              STATUS              PORTS                    NAMES
+72e7a74530ae   exercise31-frontend   "docker-entrypoint.s…"   About a minute ago   Up About a minute   0.0.0.0:5000->5000/tcp   frontend
+0afdbdf5d241   exercise31-backend    "./server"               About a minute ago   Up About a minute   0.0.0.0:8080->8080/tcp   backend
+$ docker exec -it frontend sh
+/usr/app $ [6n/usr/app $ [Jps
+PID   USER     TIME  COMMAND
+    1 appuser   0:00 node /usr/local/bin/serve -s -l 5000 build
+   27 appuser   0:00 sh
+   33 appuser   0:00 ps
+/usr/app $ [6nwhoami
+appuser
+/usr/app $ [6nexit
+$ ^[[A^[[B        ^[[1;2D^H^H           docker exec -it frontend sh
+/usr/app $ [6n/usr/app $ [Jexit
+$ ^[[A^[[B        docker r exec = -o it backend sh
+/app $ [6n/app $ [Jps
+PID   USER     TIME  COMMAND
+    1 appuser   0:00 ./server
+   12 appuser   0:00 sh
+   18 appuser   0:00 ps
+/app $ [6nwhoami
+appuser
+/app $ [6nexit
+$ exit
+
+Script done on 2023-02-09 02:14:33+02:00 [COMMAND_EXIT_CODE="0"]
